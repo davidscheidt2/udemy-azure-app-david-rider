@@ -5,6 +5,11 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <RootNamespace>azure_app_david_rider</RootNamespace>
+        <UserSecretsId>890d242e-1b1f-4197-9b03-059523252169</UserSecretsId>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+    </ItemGroup>
 
 </Project>
